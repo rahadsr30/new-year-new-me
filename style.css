@@ -21,12 +21,16 @@
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 25px;
+  margin-right: 200px;
+  text-align: right;
 }
 .header-discription {
   font-size: 18px;
   font-weight: 400;
   color: #000;
+  text-align: right;
   margin-bottom: 20px;
+  margin-right: 200px;
 }
 .btn {
   height: 45px;
@@ -34,4 +38,113 @@
   border-radius: 5px;
   background-color: #ff69b4;
   border: 1px solid #ff69b4;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 280px;
+}
+/* main */
+.section {
+  display: flex;
+  gap: 40px;
+  margin: 150px 210px 170px 210px;
+  align-items: center;
+  justify-content: center;
+}
+.section-titel {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section-discription {
+  font-size: 18px;
+  font-weight: 400;
+  color: #a9a9a9;
+  margin-bottom: 20px;
+}
+.list {
+  list-style: none;
+}
+ul li {
+  margin-bottom: 15px;
+}
+.fa-solid {
+  color: #16d887;
+}
+.img {
+  height: 500px;
+  width: 400px;
+}
+.img-2 {
+  height: 450px;
+  width: 350px;
+}
+/* My Plan */
+.my-plans {
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.plan-contaner {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+/* web-container */
+.web-container {
+  text-align: center;
+}
+.web-titel {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.web-discription {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+/* js-container */
+.js-container {
+  text-align: center;
+}
+.js-titel {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.js-discription {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+/* Smoking-container */
+.Smoking-container {
+  text-align: center;
+}
+.Smoking-titel {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.Smoking-discription {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a9a9a9;
+}
+/* ecommerce-container */
+.ecommerce-container {
+  text-align: center;
+}
+.ecommerce-titel {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.ecommerce-discription {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a9a9a9;
 }
